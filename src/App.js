@@ -3,15 +3,15 @@ import "./input.css";
 function App() {
   return (
     <>
-      <div class="container">
-        <div class="item" data-order="1"></div>
-        <div class="item" data-order="2"></div>
-        <div class="item" data-order="3"></div>
-        <div class="item" data-order="4"></div>
-        <div class="item" data-order="5"></div>
-        <div class="item" data-order="6"></div>
-        <div class="item" data-order="7"></div>
-      </div>
+      
+          <div className=" h-[100vh] m-auto flex bg-slate-500 border-4 border-black">
+            <div id="box" className="border-2 flex-grow border-black p-10 bg-red-500"></div>
+            <div id="box" className="border-2 flex-grow border-black p-10 bg-yellow-300"></div>
+            <div id="box" className="border-2 flex-grow border-black p-10 bg-lime-200"></div>
+            <div id="box" className="border-2 flex-grow border-black p-10 bg-indigo-400"></div>
+            <div id="box" className="border-2 flex-grow border-black p-10 bg-orange-200"></div>
+          </div>
+        
     </>
   );
 }
