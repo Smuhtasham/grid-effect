@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#box1:hover{
+    width: 500px;
+}
+#box2:hover{
+    width: 500px;
+}
+#box3:hover{
+    width: 500px;
+}
+#box4:hover{
+    width: 500px;
+}
+#box5:hover{
+    width: 500px;
+}
